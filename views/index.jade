@@ -1,0 +1,21 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+
+  if todos.length
+    table(border="1")
+      thead
+        tr
+          th No
+          th Task
+          th Status
+      tbody
+        each todo, index in todos
+          tr
+            td #{index + 1}
+            td #{todo.title}
+            td #{todo.completed ? '✅' : '❌'}
+  else
+    p No tasks available.
