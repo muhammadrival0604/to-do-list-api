@@ -22,17 +22,6 @@
 },
 {
   "_id": {
-    "$oid": "67b84801ef1ced8df413765b"
-  },
-  "title": "Belajar kawin",
-  "completed": false,
-  "createdAt": {
-    "$date": "2025-02-21T09:31:45.643Z"
-  },
-  "__v": 0
-},
-{
-  "_id": {
     "$oid": "67b849893a4d0b01bdbd9dfb"
   },
   "title": "Belajar kopi",
@@ -94,17 +83,6 @@
   "completed": false,
   "createdAt": {
     "$date": "2025-02-21T13:18:56.000Z"
-  },
-  "__v": 0
-},
-{
-  "_id": {
-    "$oid": "67b87e129e6a31ff997dff45"
-  },
-  "title": "Belajar ngaroko",
-  "completed": false,
-  "createdAt": {
-    "$date": "2025-02-21T13:22:26.000Z"
   },
   "__v": 0
 },
